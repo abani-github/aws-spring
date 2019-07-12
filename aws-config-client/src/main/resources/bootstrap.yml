@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: exchange-config
+  profiles:
+    active: master  
+  cloud:
+    config:
+      uri: http://arbcloudconfig-env.u2immcftks.ap-south-1.elasticbeanstalk.com
